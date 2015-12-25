@@ -2,6 +2,8 @@
 
 Fetches your GitHub repos for display in Lektor templates
 
+[Demo](https://marksteve.com/lektor-github-repos)
+
 ## Enabling the plugin
 
 To enable the plugin add this to your project file:
@@ -63,3 +65,8 @@ param `count`.
 {% endfor %}
 </ul>
 ```
+
+## In action
+
+* [My homepage](https://marksteve.com)
+
