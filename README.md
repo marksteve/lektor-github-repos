@@ -34,7 +34,7 @@ token = <your personal access token>
 ## Use in your templates
 
 The plugin adds `get_github_repos()` and `get_top_github_repos()` to the template
-context. Both accepts the same parameters as with the user repos API call
+context. Both accept the same parameters as with the user repos API call
 (https://developer.github.com/v3/repos/#list-your-repositories).
 `get_top_github_repos` also sorts repos by stargazers and accepts an additional
 param `count`.
