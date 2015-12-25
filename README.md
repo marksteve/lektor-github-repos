@@ -10,7 +10,7 @@ To enable the plugin add this to your project file:
 
 ```
 [packages]
-lektor-github-repos = 0.1
+lektor-github-repos = 0.1.1
 ```
 
 ## Generate a personal access token
