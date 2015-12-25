@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='lektor-github-repos',
     description='Fetches your GitHub repos for display in Lektor templates',
-    version='0.1',
+    version='0.1.1',
     author=u'Mark Steve Samson',
     author_email='hello@marksteve.com',
     license='MIT',
