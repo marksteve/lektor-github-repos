@@ -1,0 +1,5 @@
+[project]
+name = example
+
+[packages]
+lektor-github-repos = 0.1.1

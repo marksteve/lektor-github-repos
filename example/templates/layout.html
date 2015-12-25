@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}Welcome{% endblock %} — example</title>
+<body>
+  <header>
+    <h1>example</h1>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+    <h2>My top 10 repos</h2>
+    <ul>
+    {% for repo in get_top_github_repos(type="owner", sort="updated", count=10) %}
+      <li>
+        [{{ repo.stargazers_count }} stars]
+        <strong>{{ repo.name }}</strong>
+        {{ repo.description }}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <footer>
+    &copy; Copyright 2015 by Mark Steve Samson.
+  </footer>
+</body>
