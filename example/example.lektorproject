@@ -3,3 +3,7 @@ name = example
 
 [packages]
 lektor-github-repos = 0.1.1
+
+[servers.ghpages]
+name = GitHub Pages
+target = ghpages://marksteve/lektor-github-repos
