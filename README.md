@@ -52,6 +52,7 @@ param `count`.
 ### Get 10 latest updated repositories sorted by stargazers
 
 ```
+<ul>
 {% for repo in get_top_github_repos(type="owner", sort="updated", count=10) %}
   <li>
     [{{ repo.stargazers_count }} stars]
@@ -59,4 +60,5 @@ param `count`.
     {{ repo.description }}
   </li>
 {% endfor %}
+</ul>
 ```
