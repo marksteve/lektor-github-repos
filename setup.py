@@ -13,5 +13,6 @@ setup(
         'lektor.plugins': [
             'github-repos = lektor_github_repos:GithubReposPlugin',
         ]
-    }
+    },
+    url='https://github.com/marksteve/lektor-github-pages',
 )
