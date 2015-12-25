@@ -2,7 +2,7 @@
 
 Fetches your GitHub repos for display in Lektor templates
 
-## Enabling the Plugin
+## Enabling the plugin
 
 To enable the plugin add this to your project file:
 
@@ -15,11 +15,12 @@ lektor-github-repos = 0.1
 
 If you're only accessing public repos, the GitHub API allows you
 to only make 60 unauthenticated requests per hour. But that goes up
-to 5,000 requests per hour with authentication and it's not that hard to do.
+to 5,000 requests per hour with authentication and it's not that hard to do:
+
 Go to https://github.com/settings/tokens/new and generate a token. You
 can untick all scopes to get public access.
 
-## Create config file
+## Create the config file
 
 Create `configs/github-repos.ini` with the following content:
 
